@@ -1,0 +1,1233 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='employes' inline='true' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='employes' name='textscan.0yyjo5f19t5wu20zsm5e71a6dggh'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='D:/simplon/au_tableau/employes.csv' dataRefreshTime='' directory='D:/simplon/au_tableau' filename='C:/Users/nicol/AppData/Local/Temp/TableauTemp/1tr65la0hxzzku11gck7v1j5bfsl/employes.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0yyjo5f19t5wu20zsm5e71a6dggh' name='employes.csv' table='[employes#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:M10001:no:A1:M10001:1' header='yes' locale='fr_FR' separator=','>
+            <column datatype='string' name='id' ordinal='0' />
+            <column datatype='string' name='first_name' ordinal='1' />
+            <column datatype='string' name='last_name' ordinal='2' />
+            <column datatype='date' name='birthdate' ordinal='3' />
+            <column datatype='string' name='gender' ordinal='4' />
+            <column datatype='string' name='race' ordinal='5' />
+            <column datatype='string' name='department' ordinal='6' />
+            <column datatype='string' name='jobtitle' ordinal='7' />
+            <column datatype='string' name='location' ordinal='8' />
+            <column datatype='date' name='hire_date' ordinal='9' />
+            <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm:ss zzz' name='termdate' ordinal='10' />
+            <column datatype='string' name='location_city' ordinal='11' />
+            <column datatype='string' name='location_state' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0yyjo5f19t5wu20zsm5e71a6dggh' name='employes.csv' table='[employes#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:M10001:no:A1:M10001:1' header='yes' locale='fr_FR' separator=','>
+            <column datatype='string' name='id' ordinal='0' />
+            <column datatype='string' name='first_name' ordinal='1' />
+            <column datatype='string' name='last_name' ordinal='2' />
+            <column datatype='date' name='birthdate' ordinal='3' />
+            <column datatype='string' name='gender' ordinal='4' />
+            <column datatype='string' name='race' ordinal='5' />
+            <column datatype='string' name='department' ordinal='6' />
+            <column datatype='string' name='jobtitle' ordinal='7' />
+            <column datatype='string' name='location' ordinal='8' />
+            <column datatype='date' name='hire_date' ordinal='9' />
+            <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm:ss zzz' name='termdate' ordinal='10' />
+            <column datatype='string' name='location_city' ordinal='11' />
+            <column datatype='string' name='location_state' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M10001:no:A1:M10001:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>19998</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[first_name]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>first_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[last_name]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>last_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>birthdate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[birthdate]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>birthdate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[race]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>race</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>department</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[department]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>department</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jobtitle</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[jobtitle]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>jobtitle</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hire_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[hire_date]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>hire_date</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>termdate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[termdate]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>termdate</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[location_city]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>location_city</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[location_state]</local-name>
+            <parent-name>[employes.csv]</parent-name>
+            <remote-alias>location_state</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[employes.csv_E8207E5971E2445387B8D19BE149BB94]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' caption='Age' datatype='integer' name='[Calculation_521010191374651392]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [birthdate], TODAY())' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='employes.csv' datatype='table' name='[__tableau_internal_object_id__].[employes.csv_E8207E5971E2445387B8D19BE149BB94]' role='measure' type='quantitative' />
+      <column datatype='string' name='[id]' role='dimension' type='nominal' />
+      <column datatype='string' name='[location_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[location_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='CountD' datatype='datetime' name='[termdate]' role='dimension' type='ordinal' />
+      <column-instance column='[termdate]' derivation='None' name='[none:termdate:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='first_name, last_name'>
+          <field>[gender]</field>
+          <field>[Calculation_521010191374651392]</field>
+          <field>[birthdate]</field>
+          <field>[race]</field>
+          <field>[first_name]</field>
+          <field>[last_name]</field>
+        </drill-path>
+        <drill-path name='jobtitle, department'>
+          <field>[hire_date]</field>
+          <field>[jobtitle]</field>
+          <field>[department]</field>
+          <field>[termdate]</field>
+        </drill-path>
+        <drill-path name='location_state, location_city'>
+          <field>[location]</field>
+          <field>[location_state]</field>
+          <field>[location_city]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='99999' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <filter class='categorical' column='[id]' filter-group='2'>
+        <groupfilter from='&quot;00-0037846&quot;' function='range' level='[id]' to='&quot;99-9963543&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='quantitative' column='[none:termdate:qk]' filter-group='2' included-values='in-range-or-null'>
+        <min>#2021-08-23 02:05:19#</min>
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='employes.csv' id='employes.csv_E8207E5971E2445387B8D19BE149BB94'>
+            <properties context=''>
+              <relation connection='textscan.0yyjo5f19t5wu20zsm5e71a6dggh' name='employes.csv' table='[employes#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:M10001:no:A1:M10001:1' header='yes' locale='fr_FR' separator=','>
+                  <column datatype='string' name='id' ordinal='0' />
+                  <column datatype='string' name='first_name' ordinal='1' />
+                  <column datatype='string' name='last_name' ordinal='2' />
+                  <column datatype='date' name='birthdate' ordinal='3' />
+                  <column datatype='string' name='gender' ordinal='4' />
+                  <column datatype='string' name='race' ordinal='5' />
+                  <column datatype='string' name='department' ordinal='6' />
+                  <column datatype='string' name='jobtitle' ordinal='7' />
+                  <column datatype='string' name='location' ordinal='8' />
+                  <column datatype='date' name='hire_date' ordinal='9' />
+                  <column datatype='datetime' date-parse-format='yyyy-MM-dd HH:mm:ss zzz' name='termdate' ordinal='10' />
+                  <column datatype='string' name='location_city' ordinal='11' />
+                  <column datatype='string' name='location_state' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Age moyen'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='20'>Age Moyen</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column aggregation='Sum' caption='Age' datatype='integer' name='[Calculation_521010191374651392]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [birthdate], TODAY())' />
+            </column>
+            <column-instance column='[Calculation_521010191374651392]' derivation='Avg' name='[avg:Calculation_521010191374651392:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[birthdate]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='84' />
+            <format attr='width' value='197' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[avg:Calculation_521010191374651392:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='14.547999382019043' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{722EB6B0-EBEC-4955-A02F-CFCBF6856816}' />
+    </worksheet>
+    <worksheet name='Employes par etat'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='20'>Nombre employes par Etat</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column datatype='string' name='[location_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[location_state]' derivation='None' name='[none:location_state:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[none:location_state:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]</rows>
+        <cols>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[none:location_state:nk]</cols>
+      </table>
+      <simple-id uuid='{DE771539-7930-4DCC-8F9D-4A7C0497875F}' />
+    </worksheet>
+    <worksheet name='Nombre employes'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='20'>Nombre d&apos;employes</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='238' />
+            <format attr='height' value='66' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='14.547999382019043' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B16CEF89-4A5F-47AF-991F-A7B77B1B65D5}' />
+    </worksheet>
+    <worksheet name='Taux attrition '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column caption='(COUNTD([termdate])+COUNTD([id]))' datatype='integer' name='[Calculation_386183677587857409]' role='measure' type='quantitative' user:unnamed='Taux attrition '>
+              <calculation class='tableau' formula='(COUNTD([termdate])+COUNTD([id]))' />
+            </column>
+            <column datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column aggregation='CountD' datatype='datetime' name='[termdate]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_386183677587857409]' derivation='User' name='[usr:Calculation_386183677587857409:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[usr:Calculation_386183677587857409:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CE9F8438-92CB-433F-9461-77E0F49F7C17}' />
+    </worksheet>
+    <worksheet name='embauche par mois'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='20'>Nombre d&apos;embauche par mois</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[hire_date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column-instance column='[hire_date]' derivation='Month' name='[mn:hire_date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]' field-type='quantitative' max='1899' min='1400' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='555' />
+                <format attr='maxheight' value='555' />
+                <format attr='minwidth' value='720' />
+                <format attr='maxwidth' value='720' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]</rows>
+        <cols>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[mn:hire_date:ok]</cols>
+      </table>
+      <simple-id uuid='{4A310FBB-157A-466C-AEB4-5925BA854CC0}' />
+    </worksheet>
+    <worksheet name='nb par age'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Nunito Sans,sans-serif' fontsize='20'>Nombre d&apos;employés par âge</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column aggregation='Sum' caption='Age' datatype='integer' name='[Calculation_521010191374651392]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;year&apos;, [birthdate], TODAY())' />
+            </column>
+            <column-instance column='[Calculation_521010191374651392]' derivation='Attribute' name='[attr:Calculation_521010191374651392:qk]' pivot='key' type='quantitative' />
+            <column datatype='date' name='[birthdate]' role='dimension' type='ordinal' />
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_521010191374651392]' derivation='None' name='[none:Calculation_521010191374651392:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[attr:Calculation_521010191374651392:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]</rows>
+        <cols>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[none:Calculation_521010191374651392:qk]</cols>
+      </table>
+      <simple-id uuid='{F312C69E-EC6F-4782-83CB-CE85F1435077}' />
+    </worksheet>
+    <worksheet name='nb par departement'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Nunito Sans,sans-serif' fontsize='20'>Nombre d&apos;employés par département</run>
+            <run>Æ&#10;&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column-instance column='[department]' derivation='None' name='[none:department:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[none:department:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]</rows>
+        <cols>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[none:department:nk]</cols>
+      </table>
+      <simple-id uuid='{39594F07-7E13-454E-A13E-B9501D8C7B49}' />
+    </worksheet>
+    <worksheet name='nb par sexe'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='20'>Nombre d&apos;employes par Genre</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]' />
+              <color column='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]' />
+              <text column='[federated.1axdk2318c98bv14tsgpy0xv8e4b].[none:gender:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{490E25B3-FFB4-4563-B6D9-EB9FEAF935A7}' />
+    </worksheet>
+    <worksheet name='sexe par origine'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='20'>Ethnie par Genre</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='employes' name='federated.1axdk2318c98bv14tsgpy0xv8e4b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1axdk2318c98bv14tsgpy0xv8e4b'>
+            <column-instance column='[id]' derivation='CountD' name='[ctd:id:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[race]' derivation='None' name='[none:race:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[race]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1axdk2318c98bv14tsgpy0xv8e4b].[none:race:nk] / [federated.1axdk2318c98bv14tsgpy0xv8e4b].[none:gender:nk])</rows>
+        <cols>[federated.1axdk2318c98bv14tsgpy0xv8e4b].[ctd:id:qk]</cols>
+      </table>
+      <simple-id uuid='{D2C05C21-5907-470F-B5B6-228EE5AFE1E3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Age et Genre'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='26689' id='6' name='Age moyen' w='49299' x='800' y='31311'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='30311' id='7' name='Nombre employes' w='49299' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='57000' id='3' name='nb par age' w='49101' x='50099' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='41000' id='12' name='nb par sexe' w='98400' x='800' y='58000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='36125' id='6' is-fixed='true' name='Age moyen' w='43300' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36125' id='7' is-fixed='true' name='Nombre employes' w='55100' x='44100' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='61875' id='3' is-fixed='true' name='nb par age' w='49200' x='50000' y='37125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{787FA42C-9B32-41D8-B7C6-DAA5E9E83207}' />
+    </dashboard>
+    <dashboard name='Tableau de bord 3'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='56500' id='3' name='sexe par origine' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='25375' id='5' name='embauche par mois' w='98400' x='800' y='57500'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='16125' id='6' name='Taux attrition ' w='98400' x='800' y='82875'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{487426B0-B1EB-4F86-B8B9-E68DF9C0D42E}' />
+    </dashboard>
+    <dashboard name='departement et Etat'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='57750' id='5' name='Employes par etat' w='49200' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='40250' id='6' name='embauche par mois' w='98400' x='800' y='58750'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='57750' id='3' name='nb par departement' w='49200' x='50000' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5B813AF0-F200-4E1B-B31F-FC670E35FFE8}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='nb par age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5E3BC34D-1108-431B-ACD3-46A7CBEAED9A}' />
+    </window>
+    <window class='worksheet' name='Age moyen'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2AB9CE7B-3665-44E4-B9D3-D93E05B5B390}' />
+    </window>
+    <window class='worksheet' name='nb par sexe'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EB5CEAC5-2112-4774-8C5A-2C511D7D2D49}' />
+    </window>
+    <window class='worksheet' name='Nombre employes'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{89BB369F-3BD9-4153-8912-7F15783AC1B1}' />
+    </window>
+    <window class='dashboard' name='Age et Genre'>
+      <viewpoints>
+        <viewpoint name='Age moyen'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Nombre employes'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='nb par age'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='nb par sexe'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9F62F9EC-7074-4174-A3C3-73E99B2F6B9D}' />
+    </window>
+    <window class='worksheet' name='nb par departement'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{626564C7-C93A-457A-B18B-C50400E04AB1}' />
+    </window>
+    <window class='worksheet' name='Employes par etat'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{36266C71-EE08-43E5-957B-28D18D1A5F6B}' />
+    </window>
+    <window class='dashboard' name='departement et Etat'>
+      <viewpoints>
+        <viewpoint name='Employes par etat'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='embauche par mois'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='nb par departement'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{D3AD34D0-8C92-4FB7-8933-2CF21674FA60}' />
+    </window>
+    <window class='worksheet' name='sexe par origine'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4D026020-2BAC-4AC2-840D-AFBAFA80369B}' />
+    </window>
+    <window class='worksheet' name='embauche par mois'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{11E41455-0AD0-4934-B1B1-73AF2658A772}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Taux attrition '>
+      <cards>
+        <edge name='left'>
+          <strip size='286'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D94019D1-CD08-4626-AFE6-FEB465F54552}' />
+    </window>
+    <window class='dashboard' name='Tableau de bord 3'>
+      <viewpoints>
+        <viewpoint name='Taux attrition '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='embauche par mois'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='sexe par origine' />
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{0454CA4B-477D-4952-93A6-1F00F68C4B8B}' />
+    </window>
+  </windows>
+</workbook>
